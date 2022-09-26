@@ -1,0 +1,119 @@
+
+
+.wd-search-input{
+    border-radius:18px;
+    border:0;
+    width:90%;
+    font-size:18px;
+    padding:8px;
+    background-color: #626567;
+    margin-left: 16px;
+}
+
+.wd-gear{
+    position: absolute;
+    right:12px;
+    color:rgb(29,161,242);
+    font-size:32px;
+    text-align: center;
+    text-decoration: none;
+    width:10%;
+    padding:0;
+    margin:0;
+}
+
+.wd-nav-tabs{
+
+    color: rgb(110, 118, 125);
+    padding:0px;
+    width:100%;
+    border-bottom: solid 4px #303336;
+
+}
+
+.wd-nav-tabs li{
+    display: inline-block;
+    list-style-type: none;
+    padding:16px;
+    font-size:15px;
+    width:14%;
+    text-align: center;
+}
+
+.wd-nav-tabs .wd-selected{
+    color: rgb(29,161,242);
+    padding-bottom: 16px;
+    border-bottom: solid 4px rgb(29,161,242);
+
+}
+
+.wd-tuit h3{
+    font-size:13px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-tuit .wd-retuits{
+    margin-top:0;
+    margin-bottom:16px;
+
+}
+
+.wd-tuit-heading{
+    margin-top:16px;
+    margin-bottom:0;
+}
+
+.wd-tuit h1{
+    margin:0;
+}
+
+.wd-tuit{
+    border: solid 1px rgb(47, 51, 54);
+}
+
+
+.wd-tuit .wd-tuit-author{
+    color:white;
+    display:inline;
+}
+
+.wd-tuit .wd-tuit-verified{
+    font-size:1.5em;
+    text-align: center;
+}
+
+.wd-tuit .wd-tuit-icon{
+    width:16px;
+    height:16px;
+    border-radius:50%;
+}
+
+.wd-tuit .wd-tuit-time{
+    font-size:13px;
+    color:rgb(110, 118, 125);
+    display:inline;
+}
+
+
+
+.wd-tuit .wd-tuit-img{
+    width:100px;
+    height:100px;
+    display:inline-block;
+    border-radius: 10%;
+    margin: 0 16px 0 16px;
+    float:right;
+
+
+}
+
+.wd-tuit{
+    clear:both;
+    overflow: auto;
+    padding:16px;
+}
+
+.wd-tuit .wd-tuit-block{
+    display:inline-block;
+    float:left;
+}
