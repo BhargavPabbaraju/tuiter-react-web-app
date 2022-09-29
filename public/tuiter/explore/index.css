@@ -22,6 +22,11 @@
     margin:0;
 }
 
+.wd-nav-tabs a{
+    text-decoration: none;
+    color: rgb(110, 118, 125);
+}
+
 .wd-nav-tabs{
 
     color: rgb(110, 118, 125);
@@ -39,6 +44,9 @@
     width:14%;
     text-align: center;
 }
+
+
+
 
 .wd-nav-tabs .wd-selected{
     color: rgb(29,161,242);
