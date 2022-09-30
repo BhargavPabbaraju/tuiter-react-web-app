@@ -31,7 +31,6 @@
 
     color: rgb(110, 118, 125);
     padding:0px;
-    width:100%;
     border-bottom: solid 4px #303336;
 
 }
@@ -41,7 +40,6 @@
     list-style-type: none;
     padding:16px;
     font-size:15px;
-    width:14%;
     text-align: center;
 }
 
