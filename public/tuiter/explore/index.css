@@ -1,4 +1,36 @@
+.wd-js-logo{
+    border-radius:10%;
+}
+.wd-search-tuiter{
+    bottom:11px;
+    left:20px;
+}
 
+.wd-more-circle{
+    width:32px;
+    margin-left:-4px;
+
+}
+
+.wd-content{
+    border: solid 1px  rgb(47, 51, 54);
+    padding:0;
+}
+.wd-bg-search-input{
+    background-color: #494B52;
+    border:0;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .wd-font-change {
+
+        font-size: 13px;
+    }
+    .wd-brand-avatar{
+        width:40px;
+        height:40px;
+    }
+}
 
 .wd-search-input{
     border-radius:18px;
@@ -30,96 +62,61 @@
 .wd-nav-tabs{
 
     color: rgb(110, 118, 125);
-    padding:0px;
     border-bottom: solid 4px #303336;
+    //margin-left:-13px;
+    text-align: center;
+    margin:0;
+
 
 }
 
 .wd-nav-tabs li{
     display: inline-block;
     list-style-type: none;
-    padding:16px;
     font-size:15px;
     text-align: center;
+    width:16%;
+
 }
 
-
+.wd-bg-blue {
+    background-color:rgb(29,161,242);
+}
 
 
 .wd-nav-tabs .wd-selected{
-    color: rgb(29,161,242);
-    padding-bottom: 16px;
-    border-bottom: solid 4px rgb(29,161,242);
+    color: white;
+    padding-bottom: 10px;
+    border-bottom: solid 6px rgb(29,161,242);
+    border-radius:4px;
+    font-weight: bolder;
+
+
 
 }
 
-.wd-tuit h3{
+.wd-fs-13{
     font-size:13px;
-    color: rgb(110, 118, 125);
 }
 
-.wd-tuit .wd-retuits{
-    margin-top:0;
-    margin-bottom:16px;
-
+.wd-ellipsis{
+    font-size:1.5em;
 }
 
-.wd-tuit-heading{
-    margin-top:16px;
-    margin-bottom:0;
-}
 
-.wd-tuit h1{
-    margin:0;
-}
+
+
 
 .wd-tuit{
     border: solid 1px rgb(47, 51, 54);
-}
-
-
-.wd-tuit .wd-tuit-author{
-    color:white;
-    display:inline;
-}
-
-.wd-tuit .wd-tuit-verified{
-    font-size:1.5em;
-    text-align: center;
-}
-
-.wd-tuit .wd-tuit-icon{
-    width:16px;
-    height:16px;
-    border-radius:50%;
-}
-
-.wd-tuit .wd-tuit-time{
-    font-size:13px;
-    color:rgb(110, 118, 125);
-    display:inline;
-}
-
-
-
-.wd-tuit .wd-tuit-img{
-    width:100px;
-    height:100px;
-    display:inline-block;
-    border-radius: 10%;
-    margin: 0 16px 0 16px;
-    float:right;
-
 
 }
 
-.wd-tuit{
-    clear:both;
-    overflow: auto;
-    padding:16px;
+.wd-tuit-avatar{
+    height:24px;
+    width:24px;
+    margin-top:-2px;
+    border-radius: 50%;
 }
 
-.wd-tuit .wd-tuit-block{
-    display:inline-block;
-    float:left;
-}
+
