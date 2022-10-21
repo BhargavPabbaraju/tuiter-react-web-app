@@ -35,7 +35,8 @@ const PostItem =(
             </div>
             <div className="row">
                 <div className="col-1 me-2">
-                    <img src={`${post.avatarIcon}`} className="rounded-circle" height={48}/>
+                    <img src={`${post.avatarIcon}`} className="rounded-circle" height={48}
+                         alt="Avatar icon"/>
                 </div>
                 <div className="col">
                     <div className="row">
@@ -56,7 +57,7 @@ const PostItem =(
                     <div className="row">
                         <div className="col">
                             <div className={`${post.retweet?'d-none':''}`}>
-                                <img src={post.image} className="w-100 wd-post-image"/>
+                                <img src={post.image} className="w-100 wd-post-image" alt="Post"/>
                             </div>
                             <div className={`${!post.retweet?'d-none':''} wd-post-image 
                             border
@@ -64,7 +65,7 @@ const PostItem =(
                                 <div className="row">
                                     <div className="col">
                                         <img height={24} className="rounded-circle mb-1 me-1"
-                                             src={post.retweetAvatar}/>
+                                             src={post.retweetAvatar} alt="Retweet avatar"/>
                                         <span className="fw-bolder">{post.retweetedUserName}</span>
                                         <span className="text-primary">
                                             <i className="bi bi-patch-check-fill"></i>
