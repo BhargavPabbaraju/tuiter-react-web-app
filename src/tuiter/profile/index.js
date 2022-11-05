@@ -25,12 +25,14 @@ const ProfileComponent = () => {
             </div>
             <div className="row">
                 <div className="col">
-                    <img src={profile.bannerPicture} className="w-100" height={240}/>
+                    <img alt="Banner"
+                        src={profile.bannerPicture} className="w-100" height={240}/>
                 </div>
             </div>
             <div className="row mt-2">
                 <div className="col ms-4">
-                    <img src={profile.profilePicture} className="rounded-circle wd-profile-picture" width={120}/>
+                    <img alt="Profile"
+                        src={profile.profilePicture} className="rounded-circle wd-profile-picture" width={120}/>
                     <Link to="/tuiter/edit-profile">
                         <button className="btn btn-light rounded-pill float-end me-3">Edit profile</button>
                     </Link>

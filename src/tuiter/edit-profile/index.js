@@ -18,7 +18,7 @@ const EditProfileComponent = () => {
 
 
     const formatDate = (date)=>{
-        var date = new Date(date);
+        date = new Date(date);
         var year = date.toLocaleString("default", { year: "numeric" });
         var month = date.toLocaleString("default", { month: "2-digit" });
         var day = date.toLocaleString("default", { day: "2-digit" });
@@ -73,12 +73,12 @@ const EditProfileComponent = () => {
             </div>
             <div className="row pt-3">
                 <div className="col">
-                    <img src={profile.bannerPicture} className="w-100" height={240}/>
+                    <img alt="banner" src={profile.bannerPicture} className="w-100" height={240}/>
                 </div>
             </div>
             <div className="row mt-2">
                 <div className="col ms-4">
-                    <img src={profile.profilePicture} className="rounded-circle wd-profile-picture" width={120}/>
+                    <img alt="profile" src={profile.profilePicture} className="rounded-circle wd-profile-picture" width={120}/>
                 </div>
             </div>
             <div className="wd-pull-up">
