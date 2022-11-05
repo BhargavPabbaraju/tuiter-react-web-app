@@ -1,0 +1,15 @@
+
+.wd-profile-picture{
+    position: relative;
+    bottom:60px;
+    background-color: white;
+}
+
+.wd-pull-up{
+    margin-top:-32px;
+}
+
+.wd-handle{
+    position:relative;
+    bottom:12px;
+}
