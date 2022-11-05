@@ -5,7 +5,7 @@ const profile = {
     profilePicture: 'https://i.pinimg.com/736x/34/16/65/341665199bb597cdfae9848f975b844f.jpg', 	bannerPicture: 'https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/06/One-piece-1050.jpg',
     bio: "From East Blue.  On my quest to become the Pirate King! Kaizoku Ou Ni Ore Wa Naru!",
     website: 'youtube.com/webdevtv',
-    location: 'Wano Kuni',	dateOfBirth: '2003-05-05',	dateJoined: '1999-10-21',
+    location: 'Wano Kuni',	dateOfBirth: '2003/05/05',	dateJoined: '1999/10/21',
     followingCount: 10,	followersCount: 565 , tuits: "6,114"
 }
 

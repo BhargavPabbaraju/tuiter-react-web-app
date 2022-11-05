@@ -13,7 +13,7 @@ const ProfileDetails = () => {
                 <div className="col-4">
                     <i className="bi bi-balloon"></i>
                     <span className="ms-1">Born {
-                        new Date(profile.dateOfBirth+" ").toLocaleDateString(
+                        new Date(profile.dateOfBirth).toLocaleDateString(
                             'en-us',{day:"numeric",year:"numeric",month:"long"}
                         )
                     }</span>
