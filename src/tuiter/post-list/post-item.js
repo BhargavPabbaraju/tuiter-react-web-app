@@ -1,7 +1,6 @@
 import React from "react";
 const PostItem =(
     {post={
-        "_id": 123,
         "userName": "SpaceX",
         "handle": "SpaceX",
         "avatarIcon": "spacex.jpg",

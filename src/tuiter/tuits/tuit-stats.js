@@ -5,7 +5,6 @@ import {useDispatch} from "react-redux";
 const TuitStats= (
     {
         tuit = {
-            "_id": 234,
             "topic": "Space",
             "userName": "SpaceX",
             "time": "2h",

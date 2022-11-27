@@ -8,7 +8,6 @@ import {deleteTuitThunk} from "../../services/tuits-thunk";
 const TuitItem = (
     {
         tuit = {
-            "_id": 234,
             "topic": "Space",
             "userName": "SpaceX",
             "time": "2h",
